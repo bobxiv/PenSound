@@ -1,0 +1,18 @@
+Introduccion:
+Reproduce un sonido especificado en Autorun.inf, siempre y cuando este sea .wav.
+
+Requerimientos:
+Se requiere como minimo windows 95 y soporte por std
+
+Metodo:
+Se debe poner en Autorun.inf:
+
+ tag                      
+[' '] Sound [' '] = [' '] name [' ']
+
+Luego se debe especificar en Autorun.inf que se debe ejecutar por defecto el ejecutable de este programa, asi se reproducira el sonido especificado en el tag Sound de Autorun.inf
+
+
+
+
+Nota Importante: En Windows Vista por defecto no se ejecutan los autorun por razones de seguridad, pero con una actualizacion y una configuracion se puede arreglar
